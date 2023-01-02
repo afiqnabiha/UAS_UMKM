@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_theme"
+    android:layout_height="match_parent"
+    tools:context=".AdministratorActivity">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#556B2F"
+                android:textColor="@color/white"
+                android:id="@+id/btn_produk"
+                android:layout_margin="5dp"
+                android:text="Produk" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:backgroundTint="#556B2F"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:id="@+id/btn_konsumen"
+                android:text="Konsumen" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:backgroundTint="#556B2F"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_laporan"
+                android:layout_margin="5dp"
+                android:text="Laporan" />
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/pesanan"
+        android:icon="@drawable/ic_baseline_shopping_basket_24"
+        android:title="Call Center"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/administrator_btn"
+        android:icon="@drawable/ic_baseline_admin_panel_settings_24"
+        app:showAsAction="always"
+        android:title="Administrator" />
+    <item
+        android:id="@+id/call_center"
+        android:icon="@drawable/ic_baseline_local_phone_24"
+        android:title="Call Center" />
+    <item
+        android:id="@+id/sms_center"
+        android:icon="@drawable/ic_baseline_sms_24"
+        android:title="SMS Center" />
+    <item
+        android:id="@+id/location"
+        android:icon="@drawable/ic_baseline_person_pin_circle_24"
+        android:title="Lokasi" />
+    <item
+        android:id="@+id/update_user"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Update Password" />
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Logout" />
+</menu>
